@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Employee:</b>
+  <%= @project_assignement.employee_id %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @project_assignement.project_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_assignement_path(@project_assignement) %> |
+<%= link_to 'Back', project_assignements_path %>

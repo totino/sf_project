@@ -1,4 +1,22 @@
 SfProject::Application.routes.draw do
+  get "my_pages/home"
+
+  get "my_pages/help"
+
+  get "pages/home"
+
+  get "pages/help"
+
+  resources :posts
+
+  resources :users
+
+  resources :project_assignements
+
+  resources :projects
+
+  resources :employees
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
