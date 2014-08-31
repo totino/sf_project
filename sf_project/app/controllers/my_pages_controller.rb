@@ -4,4 +4,8 @@ class MyPagesController < ApplicationController
 
   def help
   end
+
+  def test
+  end
+
 end
